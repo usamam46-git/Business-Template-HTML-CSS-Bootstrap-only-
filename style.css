@@ -690,7 +690,7 @@ nav{
     .footer-container {
         grid-template-columns: 1fr 1fr;
         gap: 24px;
-        padding-top: 60px;
+        padding: 60px;
     }
     .review-input-container {
         height: auto;

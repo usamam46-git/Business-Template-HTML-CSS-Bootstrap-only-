@@ -626,3 +626,183 @@ nav{
     background-color: #343434;
     font-size: 14px;
 }
+@media (max-width: 1024px) {
+    .hero-container, .section3 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 24px;
+    }
+    .hero-content {
+        max-width: 100%;
+        text-align: center;
+    }
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        gap: 16px;
+    }
+    .image-sec3 img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    .card-container {
+        gap: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .nav1, .nav-2 {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        align-items: flex-start;
+    }
+    .nav-2 {
+        left: 10px;
+        width: 98%;
+        top: 10px;
+    }
+    .con-rest {
+        left: 10px;
+        width: 90%;
+        bottom: 40px;
+    }
+    .hero-title {
+        font-size: 32px;
+    }
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    .section3 {
+        flex-direction: column;
+        width: 98vw;
+        height: auto;
+        gap: 16px;
+        padding: 10px 0;
+    }
+    .image-sec3 img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        padding-top: 60px;
+    }
+    .review-input-container {
+        height: auto;
+    }
+    .input-line-1 {
+        flex-direction: column;
+        gap: 10px;
+        padding: 30px 10px 10px 10px;
+    }
+    .input-line-1 input, .input-line-2 input {
+        width: 100%;
+    }
+    .logo-box img {
+        height: 120px;
+    }
+}
+@media (max-width: 480px) {
+    .nav1, .nav-2 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+        height: auto;
+        padding: 4px 0;
+    }
+    .nav-2 {
+        left: 0;
+        width: 100%;
+        top: 0;
+        font-size: 14px;
+    }
+    .right-nav-2 ul {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .con-rest {
+        left: 0;
+        width: 98%;
+        bottom: 10px;
+        padding: 0 4px;
+        font-size: 14px;
+    }
+    .con-head {
+        font-size: 22px;
+    }
+    .sub-head {
+        font-size: 14px;
+    }
+    .hero-title {
+        font-size: 20px;
+    }
+    .hero-section {
+        margin-top: 40px;
+        height: auto;
+        min-height: 300px;
+    }
+    .hero-container {
+        flex-direction: column;
+        gap: 16px;
+        padding: 0 4px;
+    }
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+    .stat-card {
+        padding: 16px 8px;
+    }
+    .section3 {
+        width: 100vw;
+        padding: 0;
+        gap: 8px;
+    }
+    .image-sec3 img {
+        width: 100%;
+        max-width: 100vw;
+        height: auto;
+    }
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+    .card1 {
+        width: 95vw;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .reviews-section-box-container {
+        flex-direction: column;
+        width: 98vw;
+        gap: 12px;
+        margin: 40px auto;
+    }
+    .reviews-section-box-container .box1 {
+        width: 95vw;
+        height: auto;
+        font-size: 13px;
+        padding: 8px 4px;
+    }
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding-top: 30px;
+    }
+    .input-section-footer-box4 input {
+        width: 100%;
+    }
+    .logo-box img {
+        height: 60px;
+    }
+    .copyright {
+        font-size: 11px;
+        padding: 8px;
+    }
+}

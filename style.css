@@ -708,7 +708,7 @@ nav {
     .con-rest {
         left: 10px;
         width: 90%;
-        bottom: 40px;
+        bottom: 100px;
     }
 
     .hero-title {
@@ -786,7 +786,7 @@ nav {
     .con-rest {
         left: 0;
         width: 98%;
-        bottom: 10px;
+        bottom: 90px;
         padding: 0 4px;
         font-size: 14px;
     }
